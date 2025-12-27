@@ -1,0 +1,36 @@
+# root/.gitignore
+# Node modules
+node_modules/
+# Build output
+build/
+# Logs
+logs
+*.log
+# Dependency directories
+jspm_packages/
+# Production
+dist/
+# Environment variables
+.env
+# IDE files
+.vscode/
+.idea/
+# Mac system files
+.DS_Store
+# Docker files
+docker-compose.override.yml
+# React Native
+.expo/
+# Coverage directory used by tools like istanbul
+coverage/
+# TensorFlow model files
+*.h5
+# MongoDB data files
+data/
+# GraphQL generated files
+*.graphql
+# Miscellaneous
+*.tmp
+*.temp
+*.bak
+*.swp
